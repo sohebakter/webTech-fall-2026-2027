@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    background-color: blanchedalmond;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 10px 30px ;
+}
+
+
+
+fieldset{
+    background-color: paleturquoise;
+    border: 2px solid;
+    border-radius: 19px;
+    /* padding: 20px; */
+    margin-bottom: 2;
+}
