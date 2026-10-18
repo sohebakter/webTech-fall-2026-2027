@@ -2,13 +2,24 @@
 <html lang="en-US">
     <head> 
         <meta charset="UTF-8">
-     / <link rel="stylesheet" href="../Design/Style.css">
-        
-        <title> Registration Form </title> 
+        <link rel="stylesheet" href="../Design/Style.css">
+        <title> Registration Form </title>
     </head>
     <body>
+       
+
         <img src="../Assets/logo.png" id="logo">
-        <br>
+        
+         <div class="topnav">
+            <!-- <ul>
+                <li> <a href="https://www.aiub.edu"> Home Page </a> </li>
+                <li> <a href="https://www.portal.aiub.edu"> Portal </a> </li>
+            </ul>   -->
+
+             <a href="https://www.aiub.edu"> Home Page </a> 
+             <a href="https://www.portal.aiub.edu"> Portal </a> 
+        </div>
+
         <video  controls poster="../Assets/Yolo21.png">
             <source src="../Assets/AIUB Virtual Tour _ 2021.mp4" type="mp4">
             <source src="../Assets/AIUB Virtual Tour _ 2021.mp4" type="video/webm">
@@ -44,7 +55,7 @@
                 </tr>
 
                  <tr>
-                    <td> <label for="Document"> Patient Medical History: <span style="color: brown;">*</span> </label> </td>
+                    <td> <label for="Document"> Patient Medical History: </label> </td>
                     <td> <input type="file" for="Document" id="Document" name="Document"> </td>
                 </tr>
 
@@ -56,7 +67,7 @@
                 <tr>
                     <td> <label for="Address"> Address: </label> </td>
                     <td> 
-                        <textarea for="Address" id="Address" name="Address" cols="20" rows="10" style="resize: none;"> </textarea>
+                        <textarea for="Address" id="Address" name="Address"  style="resize: none;"> </textarea>
                     </td>
                 </tr>
 
@@ -99,9 +110,12 @@
         </fieldset>
         <br>
 
-        <input type="submit" id="Submit" for="Submit" value="Signup">
+        <input type="submit" id="submit" for="Submit" value="Signup">
         <input type="reset" id="reset" for="reset" >
 
        </form>
+       <div class="footer">
+        
+       </div>
     </body>
 </html>
