@@ -1,6 +1,46 @@
 *{
     box-sizing: border-box;
 }
+.header{
+    background-color: rgb(173, 220, 54);
+    padding: 4px 4px;
+    text-align: center;
+    border: 5px;
+    margin: 10px;
+    border-radius: 5%;
+}
+.header h1{
+    text-align: center;
+    color:black;
+    padding-bottom:2px;
+    margin-bottom: 10px;
+    /* margin: 0 auto; */
+}
+.topnav{
+    background-color: pink;
+    overflow: hidden;
+
+}
+.topnav a{
+  float: left;
+  display: block;
+  color: blue;
+ text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 620px;
+}
+.footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 3px 4px;
+    margin-top: 4px;
+}
+
+
 
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -19,13 +59,7 @@ body{
     object-fit: cover;
 }
 
-#head{
-    text-align: center;
-    color: mediumaquamarine;
-    border-bottom: 9px solid rgb(222, 51, 51);
-    padding-bottom:2px;
-    margin-bottom: 10px;
-}
+
 #pic{
     display: block;
     width: 500px;
@@ -65,16 +99,58 @@ td{
     padding: 6px 5px;
     vertical-align: top;
 }
-
-#Signup{
-    font-weight: bold;
-    color: white;
-    background-color: brown;
-    padding: 2px 2px;
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+select, 
+textarea{
+    width: 100%;
+    padding: 5px 7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: snow;
 }
+textarea{
+    
+    height: 140px;
+}
+
+input[type="radio"]{
+    font-size: 12px;
+    padding: 2px 2px;
+    accent-color: red;
+}
+input[type="submit"],
+input[type="reset"]{
+    font-size: 12px;
+    font-weight: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:3px 4px;
+    border-radius: 5%;
+    border: 1px solid black;
+     cursor: pointer;
+    /* margin-right: 11px;
+    width: 48%; */
+}
+
+#submit{
+    
+    background-color: skyblue;
+}
+
 #reset{
-    font-weight: bold;
-    color: white;
-    background-color: brown;
-    padding: 2px 3px;
+    
+    background-color: skyblue;
+}
+
+#submit:hover{
+    background-color: rgb(220, 20, 23);
+}
+#reset:hover{
+    background-color: crimson;
 }
