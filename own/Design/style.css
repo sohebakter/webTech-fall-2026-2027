@@ -134,11 +134,12 @@ input[type="reset"]{
     border-radius: 5%;
     border: 1px solid black;
      cursor: pointer;
+     background-color: skyblue;
     /* margin-right: 11px;
     width: 48%; */
 }
 
-#submit{
+/* #submit{
     
     background-color: skyblue;
 }
@@ -146,7 +147,7 @@ input[type="reset"]{
 #reset{
     
     background-color: skyblue;
-}
+} */
 
 #submit:hover{
     background-color: rgb(220, 20, 23);
