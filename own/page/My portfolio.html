@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet"  href="../Design/style.css" >
+        <script src="../JS/script.js"></script>
         <title>MY Portfolio</title>
         </head>
         <div class="container">
@@ -33,32 +34,45 @@
                     </legend>
                     <table> <tr>
                         <td><label for="Name">Name:</label></td>
-                        <td><input type="text" for="Name" id="Name" name="Name"placeholder="Enter your Name"></td>
+                        <td><input type="text" for="Name" id="Name" name="Name"placeholder="Enter your Name">
+                        <p id="NameError"></p>
+                        </td>
                     </tr>
                     <tr>
                         <td> <label for="id">ID:</label></td>
-                        <td><input type="text"for="id" id="id" name="id" placeholder="Enter your id "></td>
+                        <td><input type="text"for="id" id="id" name="id" placeholder="Enter your id ">
+                        <p id="IdError"></p>
+                        
+                        </td>
                     
                     </tr>
                     <tr>
                         <td><label for="Gender">Gender</label></td>
                         <td><input type="radio" for="Gender"name="Gender" id="Gender">Male
-                         <input type="radio" for="Gender"name="Gender" id="Gender">Female</td>
+                         <input type="radio" for="Gender"name="Gender" id="Gender">Female
+                        <p id="GenderError"></p>
+                        </td>
 
                     </tr>
                      <tr>
                         <td> <label for="age">AGE:</label></td>
-                        <td><input type="number"for="age" id="age" name="age" placeholder="Enter your Age "></td>
+                        <td><input type="number"for="age" id="age" name="age" placeholder="Enter your Age ">
+                        <p id="AgeError"></p>
+                        </td>
                     
                     </tr>
                     
                     <tr>
                         <td><label for="CGPA">CGPA:</label></td>
-                        <td><input type="number" for="CGPA" id="CGPA" name="CGPA" placeholder="Enter your CGPA"></td>
+                        <td><input type="number" for="CGPA" id="CGPA" name="CGPA" placeholder="Enter your CGPA">
+                        <p id="CGPAError"></p>
+                        </td>
                     </tr>
                     <tr>
                         <td><label for="number">PHONE NAMBER:</label></td>
-                        <td><input type="number" for="number"id="number"name="number"placeholder="Enter your phone Number"required></td>
+                        <td><input type="number" for="number"id="number"name="number"placeholder="Enter your phone Number"required>
+                        <p id="NumberError"></p>
+                        </td>
                     </tr>
 
 </table>
@@ -117,6 +131,7 @@
                                         <option id="RED">READING</option>
                                         <option id="out">others</option>
                                     </select>
+                                    
                                 </td>
                             </tr>
                         </table>
