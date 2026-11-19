@@ -123,7 +123,7 @@ function ValidateGender()
     let genders = document.querySelectorAll('input[name="Gender"]')
     let GenderError = document.getElementById("GenderError");
     let selectGender ="";
-    
+     
     for(let i=0; i<genders.length; i++)
     {
         if(genders[i].checked)
